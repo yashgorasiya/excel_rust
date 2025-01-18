@@ -1,7 +1,13 @@
 name: excel_rust
-description: "Read large excel file iteratively"
-version: 0.0.3
-homepage:
+description: |
+  Read large excel files iteratively with ease using the excel_rust package.
+  This package provides efficient methods to handle large Excel files without
+  loading the entire file into memory, making it suitable for processing
+  large datasets. It leverages Rust for performance and integrates seamlessly
+  with Flutter.
+version: 0.0.4
+homepage: https://github.com/yashgorasiya/excel_rust 
+repository: https://github.com/yashgorasiya/excel_rust
 
 environment:
   sdk: ^3.5.1
@@ -10,8 +16,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_rust_bridge: 2.5.1
-  plugin_platform_interface: ^2.0.2
+  flutter_rust_bridge: 2.7.0
+  plugin_platform_interface: ^2.1.8
 
 dev_dependencies:
   ffi: ^2.1.0

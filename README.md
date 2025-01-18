@@ -24,3 +24,5 @@ void readExcel(String filepath) async {
 }
 
 ```
+## WEB
+[Check this](https://cjycode.com/flutter_rust_bridge/manual/miscellaneous/web-cross-origin)
