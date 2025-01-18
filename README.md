@@ -5,7 +5,6 @@ Read large excel file iteratively. It uses rust calamine library.
 ## Getting Started
 ```
 Future<void> main() async {
-  // Dont call it more than once
   await ExcelRust.init();
   runApp(const MyApp());
 }
